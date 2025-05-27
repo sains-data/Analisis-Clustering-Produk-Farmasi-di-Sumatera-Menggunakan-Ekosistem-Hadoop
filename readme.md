@@ -1,7 +1,7 @@
 # Proyek Big Data: Analisis Clustering Produk Farmasi di Sumatera
 
 ## Deskripsi Proyek
-Proyek ini bertujuan untuk menganalisis dan mengelompokkan produk farmasi yang beredar di wilayah Sumatera menggunakan ekosistem Hadoop. Sistem ini mengumpulkan, memproses, dan menganalisis data produk farmasi dengan pendekatan clustering menggunakan metode K-Medoid.
+Proyek ini bertujuan untuk menganalisis dan mengelompokkan produk farmasi yang beredar di wilayah Sumatera menggunakan ekosistem Hadoop. Sistem ini mengumpulkan, memproses, dan menganalisis data produk farmasi dengan pendekatan clustering menggunakan metode K-Means.
 
 ## Tujuan
 Proyek ini bertujuan untuk membantu perusahan farmasi dalam mengelompokkan produk berdasarkan kategori wilayah, kateogri obat , dan informasi lainnya yang relevan sehingga pengelolaan ketersediaan obat yang lebih optimal dan tepa sasaran
