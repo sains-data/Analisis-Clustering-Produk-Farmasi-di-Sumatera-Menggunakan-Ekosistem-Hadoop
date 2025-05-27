@@ -18,11 +18,17 @@ Sistem ini menyimpan data dalam tiga lapisan (bronze, silver, gold) dan menyedia
 3. Mengagregasi data untuk analisis (gold).
 4. Menyediakan akses ke data melalui Hive dan dashboard visualisasi.
 
+
 ## Arsitektur Sistem
+
+
+![apa (1)](https://github.com/user-attachments/assets/543a9794-a522-4789-9e06-3c11811be5e5)
+
+
 Sistem dibangun berdasaran *Medalion Architectur*, yang membagi prpses pipeline menjaid tiga lapisan:
 - **Bronze Layer**: Menyimpan data mentah dalam format CSV.
 - **Silver Layer**: Menyimpan data yang telah dibersihkan dalam format Parquet.
-- **Gold Layer**: Menyimpan data agregasi yang siap untuk analitik.
+- **Gold Layer**: Mengelola data menjadi klaster dan menyimpan data hasil klaster yang siap untuk analitik.
 
 Konfigurasi cluster lokal:
 - 1 NameNode
@@ -39,6 +45,7 @@ Analisis clustering dilakukan dengan *K-Means Clustering* dari pustaka *Apache S
 4. Latih model K-Means
 5. Evaluasi performa model
 6. Simpan dan deploy model untuk penggunaan lebih lanjut
+7. Visualisasi Hasil
 
 
 ## Metodologi Proyek
@@ -55,6 +62,7 @@ Proyek ini menggunakan pendekatan Waterfall, yang mencakup:
 - **Apache Spark**: Pemrosesan data batch.
 - **Apache Hive**: Query SQL terhadap data besar.
 - **Docker**: Lingkungan multi-container untuk pengoperasian sistem.
+- **Phyton**: Tempat Pembuatan Visual hasil klaster
 
 
 ## Implementasi Pipeline
