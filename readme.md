@@ -83,6 +83,13 @@ Pengujian dilakukan untuk memastikan seluruh proses pipeline berjalan dengan bai
 - Performance Test
 - End-to-End Test
 
+##👥 Tim Proyek
+|           Nama          |     NIM     |
+| ----------------------- | ----------- |
+| Afifah Syaharani        |  121450097  |
+| Ukasyah Muntaha         |  122450028  |
+| Renta Siahaan           |  122450070  |
+| M. Deriansyah Okutra    |  122450101  |
 
 
 
